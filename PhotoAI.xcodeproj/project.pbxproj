@@ -16,6 +16,15 @@
 		3501133A2A66C49200E16D8E /* PhotoAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113392A66C49200E16D8E /* PhotoAITests.swift */; };
 		350113442A66C49200E16D8E /* PhotoAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113432A66C49200E16D8E /* PhotoAIUITests.swift */; };
 		350113462A66C49200E16D8E /* PhotoAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113452A66C49200E16D8E /* PhotoAIUITestsLaunchTests.swift */; };
+		350113532A66C50D00E16D8E /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113522A66C50D00E16D8E /* PaywallView.swift */; };
+		350113552A66EC0800E16D8E /* SignUpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113542A66EC0800E16D8E /* SignUpCard.swift */; };
+		350113582A66EC7900E16D8E /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113562A66EC7800E16D8E /* GradientText.swift */; };
+		350113592A66EC7900E16D8E /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113572A66EC7900E16D8E /* GradientButton.swift */; };
+		3501135C2A66ECA400E16D8E /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501135B2A66ECA400E16D8E /* VisualEffectBlur.swift */; };
+		3501135E2A66ECAE00E16D8E /* TextfieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501135D2A66ECAE00E16D8E /* TextfieldIcon.swift */; };
+		350113602A681F1A00E16D8E /* WhiteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501135F2A681F1A00E16D8E /* WhiteImage.swift */; };
+		350113622A68216C00E16D8E /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113612A68216C00E16D8E /* ButtonModifiers.swift */; };
+		350113642A68250A00E16D8E /* LogoHorizontalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113632A68250A00E16D8E /* LogoHorizontalScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,15 @@
 		3501133F2A66C49200E16D8E /* PhotoAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		350113432A66C49200E16D8E /* PhotoAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAIUITests.swift; sourceTree = "<group>"; };
 		350113452A66C49200E16D8E /* PhotoAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		350113522A66C50D00E16D8E /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		350113542A66EC0800E16D8E /* SignUpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCard.swift; sourceTree = "<group>"; };
+		350113562A66EC7800E16D8E /* GradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		350113572A66EC7900E16D8E /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		3501135B2A66ECA400E16D8E /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		3501135D2A66ECAE00E16D8E /* TextfieldIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextfieldIcon.swift; sourceTree = "<group>"; };
+		3501135F2A681F1A00E16D8E /* WhiteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteImage.swift; sourceTree = "<group>"; };
+		350113612A68216C00E16D8E /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		350113632A68250A00E16D8E /* LogoHorizontalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHorizontalScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,10 @@
 			children = (
 				350113232A66C49100E16D8E /* PhotoAIApp.swift */,
 				350113252A66C49100E16D8E /* ContentView.swift */,
+				350113522A66C50D00E16D8E /* PaywallView.swift */,
+				350113632A68250A00E16D8E /* LogoHorizontalScroll.swift */,
+				350113542A66EC0800E16D8E /* SignUpCard.swift */,
+				3501135A2A66EC8000E16D8E /* HelpersUI */,
 				350113272A66C49200E16D8E /* Assets.xcassets */,
 				3501132C2A66C49200E16D8E /* Persistence.swift */,
 				3501132E2A66C49200E16D8E /* PhotoAI.xcdatamodeld */,
@@ -131,6 +153,19 @@
 				350113452A66C49200E16D8E /* PhotoAIUITestsLaunchTests.swift */,
 			);
 			path = PhotoAIUITests;
+			sourceTree = "<group>";
+		};
+		3501135A2A66EC8000E16D8E /* HelpersUI */ = {
+			isa = PBXGroup;
+			children = (
+				3501135D2A66ECAE00E16D8E /* TextfieldIcon.swift */,
+				3501135B2A66ECA400E16D8E /* VisualEffectBlur.swift */,
+				350113572A66EC7900E16D8E /* GradientButton.swift */,
+				350113562A66EC7800E16D8E /* GradientText.swift */,
+				3501135F2A681F1A00E16D8E /* WhiteImage.swift */,
+				350113612A68216C00E16D8E /* ButtonModifiers.swift */,
+			);
+			path = HelpersUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +299,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				350113302A66C49200E16D8E /* PhotoAI.xcdatamodeld in Sources */,
+				350113592A66EC7900E16D8E /* GradientButton.swift in Sources */,
+				350113582A66EC7900E16D8E /* GradientText.swift in Sources */,
 				3501132D2A66C49200E16D8E /* Persistence.swift in Sources */,
+				350113642A68250A00E16D8E /* LogoHorizontalScroll.swift in Sources */,
+				350113532A66C50D00E16D8E /* PaywallView.swift in Sources */,
+				350113552A66EC0800E16D8E /* SignUpCard.swift in Sources */,
+				350113622A68216C00E16D8E /* ButtonModifiers.swift in Sources */,
+				3501135C2A66ECA400E16D8E /* VisualEffectBlur.swift in Sources */,
 				350113262A66C49100E16D8E /* ContentView.swift in Sources */,
+				3501135E2A66ECAE00E16D8E /* TextfieldIcon.swift in Sources */,
+				350113602A681F1A00E16D8E /* WhiteImage.swift in Sources */,
 				350113242A66C49100E16D8E /* PhotoAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
