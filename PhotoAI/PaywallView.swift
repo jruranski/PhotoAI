@@ -135,12 +135,8 @@ struct PaywallView: View {
                 
                 // FAQ section
                 
-                VStack {
-                    
-                    
-                    
-                }
-                
+               
+                FAQSection()
                 
                 Spacer()
                 
