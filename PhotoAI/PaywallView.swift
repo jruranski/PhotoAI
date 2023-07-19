@@ -12,6 +12,8 @@ struct PaywallView: View {
     
     let logoNames = ["techcrunch", "the-sun", "mkbhd", "msn", "yahoo-news"]
     
+    let reviews: [(name: String, imageName: String)] = [("", ""), ("", ""), ("", "")]
+    
     var body: some View {
         ScrollView(showsIndicators: false) {
             
@@ -24,7 +26,17 @@ struct PaywallView: View {
                     // logo and buttons
                     
                     HStack {
-                        Image("logo")
+                        HStack(spacing: 0) {
+                            Image(uiImage: UIImage(named: "logo")!)
+                                .resizable()
+                                .renderingMode(.template)
+                                .frame(width: 32, height: 32, alignment: .leading)
+                                .padding(8)
+                            Text("PHOTO")
+                                .fontWeight(.heavy)
+                            Text("AI")
+                        }
+                        .foregroundStyle(.linearGradient(colors: [Color.purple, Color.pink], startPoint: .topLeading, endPoint: .bottomTrailing))
                         Spacer()
                         
                         Text("Billing")
@@ -36,7 +48,8 @@ struct PaywallView: View {
                             .foregroundColor(.white)
                             .modifier(ButtonModifier(backgroundColor: .purple, padding: 8, radius: 8, opacity: 0.4))
                         
-                    }
+                    }.padding(.top, 40)
+                        .padding(.trailing, 8)
                     
                     
                     VStack(alignment: .leading) {
@@ -74,22 +87,40 @@ struct PaywallView: View {
                     .padding(.leading)
                         .padding(.vertical)
                     
-                    }
+                }.padding(.top)
                 .background(
                     
                     Image("dark-signon-background")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
+                        .overlay(alignment: .bottom, content:  {
+                            Image(uiImage: UIImage(named: "wave")!)
+                                .resizable()
+                            
+                                .frame( height: 90)
+                        })
                     
                 )
                 
-                
+                // light section
                 VStack {
-                    VStack {
-                        Text("World’s First AI Photographer: users can type in a text prompt that will generate any type of image they want to see of the model")
-                        WhiteImage(image: UIImage(named: "petapixel"))
+                    HStack {
+                        Text("")
+                        Spacer()
                     }
-                }.background(
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            ForEach(reviews, id: \.name) { review in
+                                ReviewsHighlightCard()
+                            }
+                        }.padding(.leading)
+                    }
+                    Spacer()
+                }
+                .frame(height: 900)
+                
+                
+                .background(
                     
                     Image("light-signon-background")
                         .resizable()
@@ -101,9 +132,22 @@ struct PaywallView: View {
                         })
                 )
                 
+                
+                // FAQ section
+                
+                VStack {
+                    
+                    
+                    
+                }
+                
+                
+                Spacer()
+                
             } // main vstack
             
         } // scroll view
+        .edgesIgnoringSafeArea(.top)
         .background(Color.black)
         
         

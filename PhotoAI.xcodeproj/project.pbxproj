@@ -25,6 +25,7 @@
 		350113602A681F1A00E16D8E /* WhiteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501135F2A681F1A00E16D8E /* WhiteImage.swift */; };
 		350113622A68216C00E16D8E /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113612A68216C00E16D8E /* ButtonModifiers.swift */; };
 		350113642A68250A00E16D8E /* LogoHorizontalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350113632A68250A00E16D8E /* LogoHorizontalScroll.swift */; };
+		35C5E6EB2A68449400DAA3B7 /* ReviewsHighlightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C5E6EA2A68449400DAA3B7 /* ReviewsHighlightCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		3501135F2A681F1A00E16D8E /* WhiteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteImage.swift; sourceTree = "<group>"; };
 		350113612A68216C00E16D8E /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 		350113632A68250A00E16D8E /* LogoHorizontalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHorizontalScroll.swift; sourceTree = "<group>"; };
+		35C5E6EA2A68449400DAA3B7 /* ReviewsHighlightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsHighlightCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				350113232A66C49100E16D8E /* PhotoAIApp.swift */,
 				350113252A66C49100E16D8E /* ContentView.swift */,
 				350113522A66C50D00E16D8E /* PaywallView.swift */,
+				35C5E6EA2A68449400DAA3B7 /* ReviewsHighlightCard.swift */,
 				350113632A68250A00E16D8E /* LogoHorizontalScroll.swift */,
 				350113542A66EC0800E16D8E /* SignUpCard.swift */,
 				3501135A2A66EC8000E16D8E /* HelpersUI */,
@@ -302,6 +305,7 @@
 				350113592A66EC7900E16D8E /* GradientButton.swift in Sources */,
 				350113582A66EC7900E16D8E /* GradientText.swift in Sources */,
 				3501132D2A66C49200E16D8E /* Persistence.swift in Sources */,
+				35C5E6EB2A68449400DAA3B7 /* ReviewsHighlightCard.swift in Sources */,
 				350113642A68250A00E16D8E /* LogoHorizontalScroll.swift in Sources */,
 				350113532A66C50D00E16D8E /* PaywallView.swift in Sources */,
 				350113552A66EC0800E16D8E /* SignUpCard.swift in Sources */,
